@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A built out Example Express application for Intuit's node.js client for QuickBooks V3 API for inventory tracking.",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "keywords": [
     "Intuit",
     "QuickBooks",
@@ -17,6 +20,7 @@
     "ejs": "2.5.5",
     "express": "^4.15.4",
     "express-session": "^1.11.3",
-    "node-quickbooks": "2.0.0"
+    "node-quickbooks": "2.0.0",
+    "plotly": "^1.0.6"
   }
 }
